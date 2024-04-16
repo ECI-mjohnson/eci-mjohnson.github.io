@@ -5,4 +5,6 @@ setInterval(function() {
         $("#ff_UserYesNo_02").removeClass('checkbox');
      }, 500);
  }, 1000);
-document.getElementsByClassName('slds-textarea')[9].style.height = '350';
+function myFunction() {
+   document.getElementsByClassName('slds-textarea')[9].style.height = '350';
+}
