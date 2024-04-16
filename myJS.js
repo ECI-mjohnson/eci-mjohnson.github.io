@@ -5,3 +5,4 @@ setInterval(function() {
         $("#ff_UserYesNo_02").removeClass('checkbox');
      }, 500);
  }, 1000);
+document.getElementsByClassName('slds-textarea').style.backgroundColor = 'red !important';
