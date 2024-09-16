@@ -1,6 +1,6 @@
 //TEMP IMPLEMENTATION - Disable Editing JB Contracts
 document.getElementById("btnEdit").disabled = true;
-let myDiv = document.getElementById('btnEdit');
+var myDiv = document.getElementById('btnEdit');
 myDiv.parentNode.removeChild(myDiv);
 if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
     {
