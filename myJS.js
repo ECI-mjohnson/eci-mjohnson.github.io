@@ -1,7 +1,8 @@
 //TEMP IMPLEMENTATION - Disable Editing JB Contracts
 if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
     {
-      document.getElementById('btnEdit').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed'); document.getElementById('Buttons').InnerText='Editing Not Allowed';");
+      document.getElementById('btnEdit').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed');");
+        document.getElementById('Buttons').InnerText='Editing Not Allowed';
       }
 //Causes monthly checkbox to blink green
 setInterval(function() {
