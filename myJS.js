@@ -9,6 +9,5 @@ setInterval(function() {
      setTimeout(function() {
         $("#ff_UserYesNo_02").removeClass('checkbox');
      }, 500);
-          document.getElementById('btnEdit').innerText = 'Edit Disabled';
  }, 1000);
 document.getElementsByClassName('slds-textarea')[9].style.height = '350';
