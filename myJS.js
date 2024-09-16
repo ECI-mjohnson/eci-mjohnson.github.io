@@ -9,7 +9,7 @@ document.getElementsByClassName('slds-textarea')[9].style.height = '350';
 function myFunction() {
 if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
     {
-      document.getElementById('bob').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed');")
+      document.getElementById('btnEdit').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed');")
       }
 
 }
