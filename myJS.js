@@ -1,5 +1,5 @@
 //TEMP IMPLEMENTATION - Disable Editing JB Contracts
-document.getElementById("btnEdit").visible = false;
+document.getElementById("btnEdit").disabled = true;
 if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
     {
       document.getElementById('btnEdit').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed');")
