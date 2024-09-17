@@ -2,7 +2,6 @@
 if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
     {
         var editText = document.getElementById('btnEdit').getAttribute('onclick');
-        alert(editText);
         document.getElementById('hbHelp').setAttribute('onclick',editText);
         document.getElementById('btnEdit').setAttribute('onclick',"alert('I hearby declare that the editing of this contract is not allowed');document.getElementById('btnEdit').innerText = 'Edit Disabled';");
       }
