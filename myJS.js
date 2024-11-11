@@ -4,7 +4,7 @@ if (document.getElementById('Assortment_ref').innerText == 'JobBOSS')
         // var editText = document.getElementById('btnEdit').getAttribute('onclick');
         // document.getElementById('hbHelp').setAttribute('onclick',editText);
         // document.getElementById('btnEdit').setAttribute('onclick',"alert('I hereby declare that the editing of this contract is not allowed');document.getElementById('btnEdit').innerText = 'Edit Disabled';");
-        document.getElementById('btnEdit').innerText = '-Edit-';
+        document.getElementById('btnEdit').innerText = 'Edit';
       }
 //Causes monthly checkbox to blink green
 setInterval(function() {
