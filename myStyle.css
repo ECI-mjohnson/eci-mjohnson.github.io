@@ -1,3 +1,7 @@
+/* Add border around the Accounting Details Section in Salesforce opportunities */
+[data-target-selection-name~="flexipage_fieldSection4"] {
+  border: 5px solid grey;
+}
 
 /* Change color of Links */
 a:visited {
@@ -87,9 +91,4 @@ textarea.slds-textarea {
 /* Remove hover popups in SalesForce for Accounts and etc. */
 .uiPanel--default.uiPanel.forceHoverPanel.positioned.east.open.active {
     display: none !important;
-}
-
-/* Add border around the Accounting Details Section in Salesforce opportunities */
-[data-target-selection-name~="flexipage_fieldSection4"] {
-  border: 5px solid grey;
 }
